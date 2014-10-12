@@ -1,0 +1,24 @@
+ <html>
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.0 Transitional//EN">
+<head>
+    <title>标题</title>
+    <meta http-equiv="Content-Type" content="text/html; charset=gb2312" />
+    <meta http-equiv="X-UA-Compatible" content="" ie="EmulateIE7" />
+</head>
+<body>
+    <script language="javascript" type="text/javascript">
+        var userAgentInfo = navigator.userAgent;
+        var Agents = new Array("Android", "iPhone", "SymbianOS", "Windows Phone", "iPad", "iPod");
+        var flagg = "1";
+        for (var v = 0; v < Agents.length; v++) {
+            if (userAgentInfo.indexOf(Agents[v]) > 0) { flagg = "2"; break; }
+        }
+        if (flagg == "2") {  //手机端
+            window.location = "wap.html";
+        }
+        else {//pc
+            window.location = "mmvip.html";
+        }
+    </script>
+</body>
+</html>
