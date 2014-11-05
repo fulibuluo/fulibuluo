@@ -1,0 +1,87 @@
+.clearfix {
+	ZOOM: 1
+}
+.clearfix:after {
+	LINE-HEIGHT: 0; DISPLAY: table; CLEAR: both; CONTENT: ""
+}
+.fl {
+	FLOAT: left
+}
+.fr {
+	FLOAT: right
+}
+.tc {
+	TEXT-ALIGN: center
+}
+.tr {
+	TEXT-ALIGN: right
+}
+.fb {
+	FONT-WEIGHT: bold
+}
+.f12 {
+	FONT-SIZE: 12px
+}
+H3 {
+	FONT-WEIGHT: normal
+}
+.listop {
+	PADDING-TOP: 15px
+}
+.mr10 {
+	MARGIN-RIGHT: 10px
+}
+.mr15 {
+	MARGIN-RIGHT: 15px
+}
+.mL10 {
+	MARGIN-LEFT: 10px
+}
+.mL15 {
+	MARGIN-LEFT: 15px
+}
+.mt10 {
+	MARGIN-TOP: 10px
+}
+.mt15 {
+	MARGIN-TOP: 15px
+}
+.mb10 {
+	MARGIN-BOTTOM: 10px
+}
+.mb15 {
+	MARGIN-BOTTOM: 15px
+}
+.weiduduan {
+	MARGIN: 15px auto 0px; WIDTH: 100%
+}
+#slide {
+	POSITION: relative; WIDTH: 100%; HEIGHT: 455px; OVERFLOW: hidden
+}
+#panel {
+	WIDTH: 100%; HEIGHT: 455px
+}
+#panel LI {
+	POSITION: absolute; WIDTH: 100%; HEIGHT: 455px
+}
+#panel .pic {
+	TEXT-INDENT: -9999em; MARGIN: 0px auto; WIDTH: 960px; DISPLAY: block; HEIGHT: 455px; OVERFLOW: hidden
+}
+#panel .slide_thumb {
+	DISPLAY: none
+}
+#trigger {
+	POSITION: absolute; MARGIN: 0px auto; WIDTH: 100%; BOTTOM: 10px; HEIGHT: 30px; LEFT: 0px
+}
+#trigger .triggerbd {
+	MARGIN: 0px auto; WIDTH: 960px
+}
+#trigger .triggerbd UL {
+	PADDING-BOTTOM: 0px; MARGIN: 0px; PADDING-LEFT: 800px; WIDTH: 230px; PADDING-RIGHT: 0px; HEIGHT: 30px; CURSOR: pointer; PADDING-TOP: 0px
+}
+#trigger .triggerbd UL LI {
+	TEXT-INDENT: -9999em; WIDTH: 30px; DISPLAY: inline; BACKGROUND: url(js/slide-dot.gif) no-repeat 0px -31px; FLOAT: left; HEIGHT: 30px; OVERFLOW: hidden; MARGIN-RIGHT: 5px
+}
+#trigger .triggerbd UL LI.cur {
+	BACKGROUND: url(js/slide-dot.gif) no-repeat 0px 1px
+}
