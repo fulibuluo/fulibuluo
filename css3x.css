@@ -1,0 +1,471 @@
+#important_notice_layer {
+	BORDER-BOTTOM: rgb(187,187,187) 1px solid; BORDER-LEFT: rgb(187,187,187) 1px solid; WIDTH: 530px; BACKGROUND: rgb(255,255,255) 0px 0px; HEIGHT: auto; BORDER-TOP: rgb(187,187,187) 1px solid; BORDER-RIGHT: rgb(187,187,187) 1px solid
+}
+#important_notice_layer .top2 {
+	PADDING-BOTTOM: 0px; PADDING-LEFT: 12px; WIDTH: 510px; PADDING-RIGHT: 8px; BACKGROUND: url(http://drmcmm.baidu.com/media/id=nHnYrjnznHbd&gp=401&time=nHnvP1cLnW04ns.jpg) repeat-x 0px 0px; HEIGHT: 34px; PADDING-TOP: 7px
+}
+#important_notice_layer .close {
+	WIDTH: 16px; BACKGROUND: url(close_bg.png) no-repeat 1px 1px; FLOAT: right; HEIGHT: 16px; CURSOR: pointer
+}
+#important_notice_layer .title {
+	PADDING-BOTTOM: 0px; PADDING-LEFT: 20px; PADDING-RIGHT: 0px; FONT: bold 12px/1.5 Verdana; BACKGROUND: url(state_icon.png) no-repeat 0px -100px; FLOAT: left; COLOR: rgb(68,68,68); PADDING-TOP: 0px; font-size-adjust: none; font-stretch: normal
+}
+#important_notice_layer .close_hover {
+	BACKGROUND: url(close_bg.png) no-repeat 1px -49px
+}
+#important_notice_layer .content {
+	BORDER-BOTTOM: rgb(237,215,188) 1px solid; BORDER-LEFT: rgb(237,215,188) 1px solid; PADDING-BOTTOM: 9px; MARGIN: 0px auto; PADDING-LEFT: 15px; WIDTH: 480px; PADDING-RIGHT: 15px; FONT: 12px/1.7 Verdana; BACKGROUND: rgb(255,249,237) 0px 0px; HEIGHT: auto; COLOR: rgb(102,102,102); OVERFLOW: hidden; BORDER-TOP: rgb(237,215,188) 1px solid; BORDER-RIGHT: rgb(237,215,188) 1px solid; PADDING-TOP: 10px; font-size-adjust: none; font-stretch: normal
+}
+#important_notice_layer .content A {
+	COLOR: rgb(74,133,203)
+}
+#important_notice_layer .content A:hover {
+	COLOR: rgb(255,102,0)
+}
+#important_notice_layer .button_space {
+	TEXT-ALIGN: center
+}
+#important_notice_layer .button_space A.down_continue {
+	MARGIN: 0px 20px 0px 0px; WIDTH: 135px; DISPLAY: inline-block; BACKGROUND: url(http://drmcmm.baidu.com/media/id=nHnYrjnznHbd&gp=401&time=nHnvP1cLnW04ns.jpg) repeat-x 0px -100px; HEIGHT: 39px
+}
+#important_notice_layer .button_space A.down_continue:hover {
+	BACKGROUND: url(http://drmcmm.baidu.com/media/id=nHnYrjnznHbd&gp=401&time=nHnvP1cLnW04ns.jpg) repeat-x -200px -100px
+}
+#important_notice_layer .button_space A.down_giveup {
+	WIDTH: 135px; DISPLAY: inline-block; BACKGROUND: url(http://drmcmm.baidu.com/media/id=nHnYrjnznHbd&gp=401&time=nHnvP1cLnW04ns.jpg) repeat-x 0px -150px; HEIGHT: 39px
+}
+#important_notice_layer .button_space A.down_giveup:hover {
+	BACKGROUND: url(http://drmcmm.baidu.com/media/id=nHnYrjnznHbd&gp=401&time=nHnvP1cLnW04ns.jpg) repeat-x -200px -150px
+}
+#important_notice_layer .button_space {
+	TEXT-ALIGN: center
+}
+#important_notice_layer .button_space A.down_continue {
+	MARGIN: 0px 20px 0px 0px; WIDTH: 135px; DISPLAY: inline-block; BACKGROUND: url(http://drmcmm.baidu.com/media/id=nHnYrjnznHbd&gp=401&time=nHnvP1cLnW04ns.jpg) repeat-x 0px -100px; HEIGHT: 39px
+}
+#important_notice_layer .button_space A.down_continue:hover {
+	BACKGROUND: url(http://drmcmm.baidu.com/media/id=nHnYrjnznHbd&gp=401&time=nHnvP1cLnW04ns.jpg) repeat-x -200px -100px
+}
+#important_notice_layer .button_space A.down_giveup {
+	WIDTH: 135px; DISPLAY: inline-block; BACKGROUND: url(http://drmcmm.baidu.com/media/id=nHnYrjnznHbd&gp=401&time=nHnvP1cLnW04ns.jpg) repeat-x 0px -150px; HEIGHT: 39px
+}
+#important_notice_layer .button_space A.down_giveup:hover {
+	BACKGROUND: url(http://drmcmm.baidu.com/media/id=nHnYrjnznHbd&gp=401&time=nHnvP1cLnW04ns.jpg) repeat-x -200px -150px
+}
+.bk16 {
+	HEIGHT: 16px
+}
+.bk10 {
+	HEIGHT: 10px
+}
+.mydiv2 {
+	Z-INDEX: 999; POSITION: fixed !important; TEXT-ALIGN: left; LINE-HEIGHT: 40px; MARGIN-TOP: -158px !important; WIDTH: 532px; HEIGHT: 316px; COLOR: rgb(240,240,240); MARGIN-LEFT: -266px !important; FONT-SIZE: 14px; TOP: 50%; FONT-WEIGHT: bold; LEFT: 50%
+}
+HTML {
+	MARGIN: 0px; HEIGHT: 100%
+}
+BODY {
+	PADDING-BOTTOM: 0px; MARGIN: 0px; PADDING-LEFT: 0px; PADDING-RIGHT: 0px; BACKGROUND: #272727; HEIGHT: 100%; COLOR: #fff; FONT-SIZE: 12px; PADDING-TOP: 0px
+}
+UL {
+	LIST-STYLE-TYPE: none
+}
+LI {
+	LIST-STYLE-TYPE: none
+}
+DIV {
+	PADDING-BOTTOM: 0px; MARGIN: 0px; PADDING-LEFT: 0px; PADDING-RIGHT: 0px; PADDING-TOP: 0px
+}
+UL {
+	PADDING-BOTTOM: 0px; MARGIN: 0px; PADDING-LEFT: 0px; PADDING-RIGHT: 0px; PADDING-TOP: 0px
+}
+LI {
+	PADDING-BOTTOM: 0px; MARGIN: 0px; PADDING-LEFT: 0px; PADDING-RIGHT: 0px; PADDING-TOP: 0px
+}
+DL {
+	PADDING-BOTTOM: 0px; MARGIN: 0px; PADDING-LEFT: 0px; PADDING-RIGHT: 0px; PADDING-TOP: 0px
+}
+DT {
+	PADDING-BOTTOM: 0px; MARGIN: 0px; PADDING-LEFT: 0px; PADDING-RIGHT: 0px; PADDING-TOP: 0px
+}
+DD {
+	PADDING-BOTTOM: 0px; MARGIN: 0px; PADDING-LEFT: 0px; PADDING-RIGHT: 0px; PADDING-TOP: 0px
+}
+H1 {
+	PADDING-BOTTOM: 0px; MARGIN: 0px; PADDING-LEFT: 0px; PADDING-RIGHT: 0px; PADDING-TOP: 0px
+}
+P {
+	PADDING-BOTTOM: 0px; MARGIN: 0px; PADDING-LEFT: 0px; PADDING-RIGHT: 0px; PADDING-TOP: 0px
+}
+FORM {
+	PADDING-BOTTOM: 0px; MARGIN: 0px; PADDING-LEFT: 0px; PADDING-RIGHT: 0px; PADDING-TOP: 0px
+}
+A {
+	PADDING-BOTTOM: 0px; MARGIN: 0px; PADDING-LEFT: 0px; PADDING-RIGHT: 0px; PADDING-TOP: 0px
+}
+H1 {
+	FONT-SIZE: 12px; FONT-WEIGHT: normal
+}
+H2 {
+	FONT-SIZE: 12px; FONT-WEIGHT: normal
+}
+H3 {
+	FONT-SIZE: 12px; FONT-WEIGHT: normal
+}
+H4 {
+	FONT-SIZE: 12px; FONT-WEIGHT: normal
+}
+H5 {
+	FONT-SIZE: 12px; FONT-WEIGHT: normal
+}
+H6 {
+	FONT-SIZE: 12px; FONT-WEIGHT: normal
+}
+A {
+	COLOR: #fff; TEXT-DECORATION: none
+}
+TABLE {
+	BACKGROUND-COLOR: #1e1e1e; WIDTH: 960px
+}
+A:hover {
+	COLOR: #eb6100; TEXT-DECORATION: underline
+}
+IMG {
+	BORDER-RIGHT-WIDTH: 0px; BORDER-TOP-WIDTH: 0px; BORDER-BOTTOM-WIDTH: 0px; BORDER-LEFT-WIDTH: 0px
+}
+.clearLay {
+	LINE-HEIGHT: 0; HEIGHT: 0px; CLEAR: both; OVERFLOW: hidden
+}
+.clear {
+	CLEAR: both
+}
+.left {
+	FLOAT: left
+}
+.right {
+	FLOAT: right
+}
+.line {
+	MARGIN: 0px auto
+}
+.innder {
+	MARGIN: 0px auto; WIDTH: 960px
+}
+.m {
+	BORDER-BOTTOM: #434343 1px solid; BORDER-LEFT: #434343 1px solid; MARGIN-TOP: 5px; BACKGROUND: #313131; HEIGHT: 35px; BORDER-TOP: #434343 1px solid; BORDER-RIGHT: #434343 1px solid
+}
+.n {
+	BORDER-BOTTOM: #434343 1px solid; BORDER-LEFT: #434343 1px solid; MARGIN-TOP: 5px; BACKGROUND: #313131; HEIGHT: 455px; BORDER-TOP: #434343 1px solid; BORDER-RIGHT: #434343 1px solid
+}
+.x {
+	BACKGROUND: #313131; HEIGHT: 5px; OVERFLOW: hidden
+}
+.y {
+	BACKGROUND: #272727; HEIGHT: 47px; OVERFLOW: hidden
+}
+.z {
+	MARGIN: 0px auto; WIDTH: 706px
+}
+.w {
+	MARGIN: 0px auto; BACKGROUND: #272727; HEIGHT: 128px
+}
+.v {
+	BORDER-BOTTOM: #434343 1px solid; BORDER-LEFT: #434343 1px solid; MARGIN-TOP: 5px; BACKGROUND: #313131; HEIGHT: 250px; BORDER-TOP: #434343 1px solid; BORDER-RIGHT: #434343 1px solid
+}
+.pp {
+	BORDER-BOTTOM: #434343 1px solid; BORDER-LEFT: #434343 1px solid; MARGIN-TOP: 5px; BACKGROUND: #313131; BORDER-TOP: #434343 1px solid; BORDER-RIGHT: #434343 1px solid
+}
+.dsi {
+	LINE-HEIGHT: 24px; COLOR: #757575; PADDING-TOP: 10px
+}
+.logopic {
+	WIDTH: 120px; DISPLAY: block; BACKGROUND: url(http://drmcmm.baidu.com/media/id=nHnYn1m3nW61&gp=401&time=nHnvP1cLnWDYP6.png) no-repeat -20px -70px; FLOAT: left; HEIGHT: 33px
+}
+.top {
+	BACKGROUND: url(a3/header-top.png) repeat-x; HEIGHT: 40px; OVERFLOW: hidden
+}
+.topline {
+	POSITION: relative; TEXT-ALIGN: center; LINE-HEIGHT: 40px; HEIGHT: 40px; FONT-SIZE: 16px
+}
+.topads {
+	PADDING-BOTTOM: 5px; WIDTH: 100%; DISPLAY: none; BACKGROUND: #272727; PADDING-TOP: 5px
+}
+.logospan {
+	POSITION: absolute; WIDTH: 151px; BACKGROUND: url(a3/logo.png) no-repeat; FLOAT: left; HEIGHT: 40px; TOP: 0px; LEFT: 0px
+}
+A.vip {
+	FONT-FAMILY: 微软雅黑,幼圆; COLOR: #fff
+}
+A.vip:hover {
+	COLOR: #fff; TEXT-DECORATION: none
+}
+.navul {
+	FONT-FAMILY: 微软雅黑,幼圆; FONT-SIZE: 14px
+}
+.navul LI {
+	TEXT-ALIGN: center; BORDER-LEFT: #272727 1px solid; WIDTH: 56px; FLOAT: left
+}
+.navul LI A {
+	LINE-HEIGHT: 32px; DISPLAY: block; HEIGHT: 32px; FONT-WEIGHT: bold
+}
+A.s {
+	BACKGROUND: #313131
+}
+.head_title {
+	LINE-HEIGHT: 47px; WIDTH: 400px; FONT-FAMILY: 微软雅黑,幼圆; FLOAT: left; FONT-SIZE: 18px
+}
+.head_title A:hover {
+	FONT-FAMILY: 微软雅黑,幼圆; FONT-SIZE: 18px; TEXT-DECORATION: none
+}
+.htitle_de {
+	LINE-HEIGHT: 47px; FLOAT: right; HEIGHT: 47px; FONT-SIZE: 16px
+}
+.videobox {
+	BACKGROUND: url(vbg.gif) repeat-x
+}
+.h_videoimg {
+	POSITION: relative; HEIGHT: 392px
+}
+.vide {
+	WIDTH: 706px; MARGIN-LEFT: 8px
+}
+.kwyword_ad {
+	LINE-HEIGHT: 35px; FONT-SIZE: 14px
+}
+.adsp1 {
+	FONT-FAMILY: 微软雅黑,幼圆; FONT-WEIGHT: bold
+}
+.kwyword_ad SPAN {
+	MARGIN-RIGHT: 10px
+}
+.s1 A {
+	COLOR: #ee0000
+}
+.s2 A {
+	COLOR: #00bf00
+}
+.s3 A {
+	COLOR: #eeee00
+}
+.s4 A {
+	COLOR: #ee00be
+}
+.s1 A:hover {
+	COLOR: #fff
+}
+.s2 A:hover {
+	COLOR: #fff
+}
+.s3 A:hover {
+	COLOR: #fff
+}
+.s4 A:hover {
+	COLOR: #fff
+}
+.arrow {
+	MARGIN-TOP: 38px
+}
+.lefta {
+	WIDTH: 22px; DISPLAY: block; BACKGROUND: url(http://drmcmm.baidu.com/media/id=nHnYn1m3nW61&gp=401&time=nHnvP1cLnWDYP6.png) no-repeat 0px 0px; HEIGHT: 40px
+}
+.righta {
+	WIDTH: 22px; DISPLAY: block; BACKGROUND: url(http://drmcmm.baidu.com/media/id=nHnYn1m3nW61&gp=401&time=nHnvP1cLnWDYP6.png) no-repeat -36px 0px; HEIGHT: 40px
+}
+.barbg {
+	WIDTH: 703px; DISPLAY: block; BACKGROUND: url(http://drmcmm.baidu.com/media/id=nHnYn1m3nW61&gp=401&time=nHnvP1cLnWDYP6.png) no-repeat 0px -70px; HEIGHT: 48px
+}
+.barposition {
+	Z-INDEX: 0; POSITION: absolute; TOP: 341px; LEFT: 0px
+}
+.bartips {
+	Z-INDEX: 900; POSITION: absolute; WIDTH: 600px; TOP: 345px; LEFT: 30px
+}
+.bararro {
+	POSITION: absolute; TOP: 362px; LEFT: 0px
+}
+.videolist {
+	WIDTH: 660px; HEIGHT: 125px; OVERFLOW: hidden
+}
+.videolist UL {
+	MARGIN-TOP: 15px
+}
+.videolist UL LI {
+	TEXT-ALIGN: center; LINE-HEIGHT: 25px; WIDTH: 125px; FLOAT: left; MARGIN-LEFT: 6px !important; _margin-left: 3px
+}
+.videolist UL LI IMG {
+	BORDER-BOTTOM: #323232 2px solid; BORDER-LEFT: #323232 2px solid; BORDER-TOP: #323232 2px solid; BORDER-RIGHT: #323232 2px solid
+}
+.videolist UL LI IMG:hover {
+	BORDER-BOTTOM: #fff 2px solid; BORDER-LEFT: #fff 2px solid; BORDER-TOP: #fff 2px solid; BORDER-RIGHT: #fff 2px solid
+}
+.adl {
+	WIDTH: 120px; HEIGHT: 600px
+}
+.adr {
+	WIDTH: 40px; HEIGHT: 600px
+}
+.banner {
+	BACKGROUND: #272727; OVERFLOW: hidden
+}
+.content {
+	BACKGROUND: #272727; HEIGHT: 250px; OVERFLOW: hidden
+}
+.content H1 {
+	LINE-HEIGHT: 28px; HEIGHT: 30px; FONT-SIZE: 14px
+}
+.contenhspan {
+	FONT-FAMILY: 微软雅黑,幼圆; FLOAT: left; COLOR: #fff; MARGIN-LEFT: 15px; FONT-SIZE: 18px; FONT-WEIGHT: bold; _margin-left: 15px
+}
+.contenhspan2 {
+	FONT-FAMILY: 仿宋; FLOAT: left; MARGIN-LEFT: 230px; FONT-SIZE: 18px; _margin-left: 200px
+}
+.content H1 A.more {
+	WIDTH: 50px; FLOAT: right; COLOR: #ccc
+}
+.content_ul {
+	WIDTH: 960px; HEIGHT: 180px
+}
+.content_ul LI {
+	POSITION: relative; TEXT-ALIGN: center; LINE-HEIGHT: 22px; WIDTH: 138px; FLOAT: left; HEIGHT: 180px; MARGIN-LEFT: 20px !important; _margin-left: 15px
+}
+.content_ul LI A.tip {
+	DISPLAY: block; LETTER-SPACING: 2px; FONT-SIZE: 15px; CURSOR: pointer; PADDING-TOP: 10px
+}
+.content_ul LI A.tip:hover {
+	
+}
+.content_ul LI IMG {
+	BORDER-BOTTOM: #fff 4px solid; BORDER-LEFT: #fff 4px solid; BORDER-TOP: #fff 4px solid; BORDER-RIGHT: #fff 4px solid
+}
+.content_ul LI SPAN {
+	COLOR: #999
+}
+.movbg {
+	POSITION: absolute; WIDTH: 25px; DISPLAY: block; BACKGROUND: url(http://drmcmm.baidu.com/media/id=nHnYn1m3nW61&gp=401&time=nHnvP1cLnWDYP6.png) -152px 0px; HEIGHT: 25px; TOP: 145px; LEFT: 10px
+}
+.movtxt {
+	POSITION: absolute; TEXT-ALIGN: right; WIDTH: 110px; DISPLAY: block; COLOR: #f00; TOP: 133px; RIGHT: 15px
+}
+.movtxt A {
+	DISPLAY: block
+}
+.pin {
+	COLOR: #f00
+}
+movtxt A {
+	COLOR: #fff; TEXT-DECORATION: none
+}
+movtxt A:hover {
+	COLOR: #fff; TEXT-DECORATION: underline
+}
+.movbg1 {
+	POSITION: absolute; WIDTH: 120px; DISPLAY: block; BACKGROUND: url(cover.png); HEIGHT: 160px; TOP: 14px; LEFT: 8px
+}
+.f1 A {
+	COLOR: #ff0000; TEXT-DECORATION: none
+}
+.f1 A:hover {
+	COLOR: #ff0000; TEXT-DECORATION: none
+}
+.f2 A {
+	COLOR: #00cd00; TEXT-DECORATION: none
+}
+.f2 A:hover {
+	COLOR: #ff0000; TEXT-DECORATION: none
+}
+.f3 A {
+	COLOR: #ffff00; TEXT-DECORATION: none
+}
+.f3 A:hover {
+	COLOR: #ff0000; TEXT-DECORATION: none
+}
+.TBODY TD {
+	WIDTH: 100px; FLOAT: left; MARGIN-LEFT: 25px; FONT-SIZE: 15px
+}
+.picsx {
+	WIDTH: 130px; DISPLAY: block; HEIGHT: 170px; MARGIN-LEFT: 4px
+}
+.pic1 {
+	BACKGROUND: url(http://drmcmm.baidu.com/media/id=nHnYrjnznH64&gp=401&time=nHnvP1cLnH64rf.jpg) no-repeat 0px 0px
+}
+.pic2 {
+	BACKGROUND: url(http://drmcmm.baidu.com/media/id=nHnYrjnznH64&gp=401&time=nHnvP1cLnH64rf.jpg) no-repeat -135px 0px
+}
+.pic3 {
+	BACKGROUND: url(http://drmcmm.baidu.com/media/id=nHnYrjnznH64&gp=401&time=nHnvP1cLnH64rf.jpg) no-repeat -271px 0px
+}
+.pic4 {
+	BACKGROUND: url(http://drmcmm.baidu.com/media/id=nHnYrjnznH64&gp=401&time=nHnvP1cLnH64rf.jpg) no-repeat -407px 0px
+}
+.pic5 {
+	BACKGROUND: url(http://drmcmm.baidu.com/media/id=nHnYrjnznH64&gp=401&time=nHnvP1cLnH64rf.jpg) no-repeat -542px 0px
+}
+.pic6 {
+	BACKGROUND: url(http://drmcmm.baidu.com/media/id=nHnYrjnznH64&gp=401&time=nHnvP1cLnH64rf.jpg) no-repeat -680px 0px
+}
+.pic7 {
+	BACKGROUND: url(http://drmcmm.baidu.com/media/id=nHn1rj6dPj64&gp=401&time=nHnvP1cLnHb3n0.jpg) no-repeat 1px 0px
+}
+.pic8 {
+	BACKGROUND: url(http://drmcmm.baidu.com/media/id=nHn1rj6dPj64&gp=401&time=nHnvP1cLnHb3n0.jpg) no-repeat -135px 0px
+}
+.pic9 {
+	BACKGROUND: url(http://drmcmm.baidu.com/media/id=nHn1rj6dPj64&gp=401&time=nHnvP1cLnHb3n0.jpg) no-repeat -272px 0px
+}
+.pic10 {
+	BACKGROUND: url(http://drmcmm.baidu.com/media/id=nHn1rj6dPj64&gp=401&time=nHnvP1cLnHb3n0.jpg) no-repeat -407px 0px
+}
+.pic11 {
+	BACKGROUND: url(http://drmcmm.baidu.com/media/id=nHn1rj6dPj64&gp=401&time=nHnvP1cLnHb3n0.jpg) no-repeat -542px 0px
+}
+.pic12 {
+	BACKGROUND: url(http://drmcmm.baidu.com/media/id=nHn1rj6dPj64&gp=401&time=nHnvP1cLnHb3n0.jpg) no-repeat -680px 0px
+}
+.pic13 {
+	BACKGROUND: url(http://www.shi85ni6.org/man/v2/id=nHn1rj6dPjbz&gp=401&time=nHnvP1cLnW0znf.jpg) no-repeat 1px 0px
+}
+.pic14 {
+	BACKGROUND: url(http://www.shi85ni6.org/man/v2/id=nHn1rj6dPjbz&gp=401&time=nHnvP1cLnW0znf.jpg) no-repeat -135px 0px
+}
+.pic15 {
+	BACKGROUND: url(http://www.shi85ni6.org/man/v2/id=nHn1rj6dPjbz&gp=401&time=nHnvP1cLnW0znf.jpg) no-repeat -271px 0px
+}
+.pic16 {
+	BACKGROUND: url(http://www.shi85ni6.org/man/v2/id=nHn1rj6dPjbz&gp=401&time=nHnvP1cLnW0znf.jpg) no-repeat -407px 0px
+}
+.pic17 {
+	BACKGROUND: url(http://www.shi85ni6.org/man/v2/id=nHn1rj6dPjbz&gp=401&time=nHnvP1cLnW0znf.jpg) no-repeat -542px 0px
+}
+.pic18 {
+	BACKGROUND: url(http://www.shi85ni6.org/man/v2/id=nHn1rj6dPjbz&gp=401&time=nHnvP1cLnW0znf.jpg) no-repeat -680px 0px
+}
+.mydiv {
+	Z-INDEX: 999; BORDER-BOTTOM: #333 1px solid; POSITION: fixed !important; TEXT-ALIGN: center; BORDER-LEFT: #333 1px solid; LINE-HEIGHT: 33px; BACKGROUND-COLOR: #999; MARGIN-TOP: -158px !important; WIDTH: 399px; HEIGHT: 213px; COLOR: #f00; MARGIN-LEFT: -164px !important; FONT-SIZE: 18px; BORDER-TOP: #333 1px solid; TOP: 50%; FONT-WEIGHT: bold; BORDER-RIGHT: #333 1px solid; LEFT: 50%
+}
+.bg {
+	Z-INDEX: 1; POSITION: fixed !important; FILTER: alpha(opacity=70); BACKGROUND-COLOR: #000; WIDTH: 100%; DISPLAY: none; HEIGHT: 100%; TOP: 0px; LEFT: 0px; opacity: 0.7
+}
+.mydiv BR {
+	PADDING-BOTTOM: 0px; MARGIN: 0px; PADDING-LEFT: 0px; PADDING-RIGHT: 0px; PADDING-TOP: 0px
+}
+A.flbc {
+	POSITION: absolute; MARGIN-TOP: 253px; WIDTH: 125px; DISPLAY: block; HEIGHT: 45px; MARGIN-LEFT: 296px
+}
+H4 {
+	TEXT-ALIGN: center; PADDING-BOTTOM: 0px; LINE-HEIGHT: 45px; MARGIN: 0px; PADDING-LEFT: 0px; PADDING-RIGHT: 0px; FONT-FAMILY: 微软雅黑, 幼圆; HEIGHT: 45px; FONT-SIZE: 25px; FONT-WEIGHT: bold; PADDING-TOP: 0px
+}
+.botm {
+	HEIGHT: 120px
+}
+.botm A {
+	COLOR: #fff
+}
+.progress-bar {
+	PADDING-BOTTOM: 0px; BACKGROUND-COLOR: #ccc; MARGIN: 3px 0px 0px; PADDING-LEFT: 0px; WIDTH: 100%; PADDING-RIGHT: 0px; HEIGHT: 25px; PADDING-TOP: 0px; -moz-border-radius: 5px; -webkit-border-radius: 5px; border-radius: 5px; -moz-box-shadow: 0 1px 5px #000 inset,0 1px 0 #444; -webkit-box-shadow: 0 1px 5px #000 inset,0 1px 0 #444; box-shadow: 0 1px 5px #000 inset,0 1px 0 #444
+}
+.progress-bar SPAN {
+	BACKGROUND-COLOR: #777; DISPLAY: inline-block; HEIGHT: 100%; -moz-border-radius: 3px; -webkit-border-radius: 3px; border-radius: 3px; -moz-box-shadow: 0 1px 0 rgba(255,255,255,.5)inset; -webkit-box-shadow: 0 1px 0 rgba(255,255,255,.5)inset; box-shadow: 0 1px 0 rgba(255,255,255,.5)inset; -webkit-transition: width .4s ease-in-out; -moz-transition: width .4s ease-in-out; -ms-transition: width .4s ease-in-out; -o-transition: width .4s ease-in-out; transition: width .4s ease-in-out
+}
+.blue SPAN {
+	BACKGROUND-COLOR: #34c2e3
+}
