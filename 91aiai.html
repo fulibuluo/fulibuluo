@@ -6,10 +6,10 @@
 <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
 <title>爱爱啦！</title>
 <style type="text/css">
-	#Main{ margin:0 auto; width:980px;}
+	.Main{ margin:0 auto; width:980px;}
 	.ClearBoth{ clear:both;}
-	#MainL{ float:left; width:480px; height:555px; }
-	#MainR{ float:left; width:500px; text-align:center; }
+	.MainL{ float:left; width:450px; height:700px;  background:url(http://www.onslove.pw/css/happy.jpg) no-repeat center;}
+	.MainR{ float:left; width:530px; text-align:center; }
 	.Style1{ font-size:28px; color:#CC0000; font-weight:bold;}
 	.MainR p{ color:#000; font-weight:bold; line-height:180%; }
 	.Title{ font-size:28px; font-weight:bold; font-family:Verdana, Geneva, sans-serif; padding:5px; }
@@ -35,7 +35,7 @@
 .button {
 	outline: 0px;
 	border: 0px currentColor;
-	width: 470px;
+	width: 500px;
 	height: 70px;
 	text-align: center;
 	color: rgb(255, 255, 255);
@@ -64,104 +64,15 @@
 	background-position: 0px 0px;
 	text-align:left;
 }
-ul,li{list-style:none;}
-#i_focus{width:460px;height:555px;background:#eee;padding:5px 5px 5px 5px;margin:2px 1px;}
-#i_focus_pic{width:366px;height:555px;display:inline;position:relative;float:left;overflow:hidden;padding:5px;}
-#i_focus_piclist{position:absolute;}
-#i_focus_piclist li{width:368px;height:555px;overflow:hidden;display:none;}
-#i_focus_piclist img{width:364px;height:535px;border:1px solid #fff;}
-#i_focus_btn {float:right;width:77px;padding-left: 5px;}
-#i_focus_btn li {cursor:pointer;opacity:0.5;-moz-opacity:0.5;filter:alpha(opacity=50);}
-#i_focus_btn img{width:75px;height:70px;border:1px solid #fff;margin-bottom:2px;}
-#i_focus_btn .i_cur {opacity:1;-moz-opacity:1;filter:alpha(opacity=100);}
-#i_focus_opdiv{position:absolute;left:0;bottom:0;width:364px;height:40px;background:#000;opacity:0.5;-moz-opacity:0.5;filter:alpha(opacity=50);border:1px solid #fff;border-top:0;}
-#i_focus_tx span{font-family:"微软雅黑";font-size:16px;font-weight:bold;line-height:22px;display:block;}
-#i_focus_tx{position:absolute;left:8px;bottom:2px;color:#FFF;}
-#i_focus_tx .normal {display:none;}
+
 </style>
 </head>
 <body>
 
-<div id="Main">
-	<div id="MainL">
-<div id="i_focus">
- <div id="i_focus_pic">
-  <ul id="i_focus_piclist" style="left: 0px; top: 0px; padding-left: 5px;">
-   <li><a href="#" target="_blank"><img src="http://ww4.sinaimg.cn/large/005yyi5Jjw1em8lkem1zwj30f00qomxp.jpg" alt=""></a></li>
-   <li><a href="#" target="_blank"><img src="http://ww4.sinaimg.cn/large/005yyi5Jjw1em8lkezg4jj30f00qowet.jpg" alt=""></a></li>
-   <li><a href="#" target="_blank"><img src="http://ww1.sinaimg.cn/large/005yyi5Jjw1em8lkgja3ij30ci0m8glt.jpg" alt=""></a></li>
-    <li><a href="#" target="_blank"><img src="http://ww2.sinaimg.cn/large/005yyi5Jjw1em8lkg3wl8j30go0m83yr.jpg" alt=""></a></li>
-   <li><a href="#" target="_blank"><img src="http://ww4.sinaimg.cn/large/005yyi5Jjw1em8lkfsrlqj30m80gowf5.jpg" alt=""></a></li>
-      <li><a href="#" target="_blank"><img src="http://ww3.sinaimg.cn/large/005yyi5Jjw1em8lkfit5hj30m80goaak.jpg" alt=""></a></li>
-   <li><a href="#" target="_blank"><img src="http://ww1.sinaimg.cn/large/005yyi5Jjw1em8lkf7h0cj30m80go3yx.jpg" alt=""></a></li>
-  </ul>
-
-  <!--slide大图374*224-->
-
- </div>
- <!--slide右侧小缩略图75*70-->
- <ul id="i_focus_btn">
-  <li class="i_cur" id="p0"><img src="http://ww4.sinaimg.cn/large/005yyi5Jjw1em8lkem1zwj30f00qomxp.jpg" alt=""></li>
-  <li id="p1"><img src="http://ww4.sinaimg.cn/large/005yyi5Jjw1em8lkezg4jj30f00qowet.jpg" alt=""></li>
-  <li id="p2"><img src="http://ww1.sinaimg.cn/large/005yyi5Jjw1em8lkgja3ij30ci0m8glt.jpg" alt=""></li>
-  <li id="p3"><img src="http://ww2.sinaimg.cn/large/005yyi5Jjw1em8lkg3wl8j30go0m83yr.jpg" alt=""></li>
-  <li id="p4"><img src="http://ww4.sinaimg.cn/large/005yyi5Jjw1em8lkfsrlqj30m80gowf5.jpg" alt=""></li>
-  <li id="p5"><img src="http://ww3.sinaimg.cn/large/005yyi5Jjw1em8lkfit5hj30m80goaak.jpg" alt=""></li>
-  <li id="p6"><img src="http://ww1.sinaimg.cn/large/005yyi5Jjw1em8lkf7h0cj30m80go3yx.jpg" alt=""></li>  
- </ul>
-</div>
-<script src="http://lib.sinaapp.com/js/jquery/1.4/jquery.min.js"></script>
-<script language="javascript">
-$(document).ready(function() {
-    var i_curIndex = 0;
-    var beauBeauSlide;//函数对象
-    var i_curID = 0;//取得鼠标下方的对象ID
-    var pictureID = 0;//索引ID
-    $("#i_focus_piclist li").eq(0).show();//默认
-    autoScroll();
-    $("#i_focus_btn li").hover(function() {
-        StopScrolll();
-        $("#i_focus_btn li").removeClass("i_cur")//所有的li去掉当前的样式加上正常的样式
-        $(this).addClass("i_cur");//而本身则加上当前的样式去掉正常的样式
-        i_curID = $(this).attr("id");//取当前元素的ID
-        pictureID = i_curID.substring(i_curID.length - 1);//取最后一个字符
-        $("#i_focus_piclist li").eq(pictureID).fadeIn("slow");//本身显示
-        $("#i_focus_piclist li").not($("#i_focus_piclist li")[pictureID]).hide();//除了自身别的全部隐藏
-        $("#i_focus_tx li").hide();
-        $("#i_focus_tx li").eq(pictureID).show();
-
-    },
-    function() {
-       //当鼠标离开对象的时候获得当前的对象的ID以便能在启动自动时与其同步
-        i_curID = $(this).attr("id");//取当前元素的ID
-        pictureID = i_curID.substring(i_curID.length - 1);//取最后一个字符
-        i_curIndex = pictureID;
-        autoScroll();
-    });
-   //自动滚动
-    function autoScroll() {
-        $("#i_focus_btn li:last").removeClass("i_cur");
-        $("#i_focus_tx li:last").hide();
-        $("#i_focus_btn li").eq(i_curIndex).addClass("i_cur");
-        $("#i_focus_btn li").eq(i_curIndex - 1).removeClass("i_cur");
-        $("#i_focus_tx li").eq(i_curIndex).show();
-        $("#i_focus_tx li").eq(i_curIndex - 1).hide();
-        $("#i_focus_piclist li").eq(i_curIndex).fadeIn("slow");
-        $("#i_focus_piclist li").eq(i_curIndex - 1).hide();
-        i_curIndex++;
-        i_curIndex = i_curIndex >= 7 ? 0 : i_curIndex;
-        beauBeauSlide = setTimeout(autoScroll, 3000);
-    }
-    function StopScrolll()//当鼠标移动到对象上面的时候停止自动滚动
-    {
-        clearTimeout(beauBeauSlide);
-    }
-});
-</script>	
-	
-	</div>
+<div class="Main">
+	<div class="MainL"></div>
    
-    <div id="MainR">
+    <div class="MainR">
 
             <div class="Style1"><img src="http://www.onslove.pw/css/index1.jpg" /></div>
             <div class="Style1"><img src="http://www.onslove.pw/css/index2.jpg" /></div>
@@ -219,11 +130,10 @@ $(document).ready(function() {
 
   <script type="text/javascript" src="http://www.onslove.pw/js/jquery.min.js"></script>
   <script type="text/javascript" src="http://www.onslove.pw/js/1.js"></script>
-  
-<div style="display:none">
+ <div style="display:none">
 <script language="javascript" type="text/javascript" src="http://js.users.51.la/17299854.js"></script>
 <noscript><a href="http://www.51.la/?17299854" target="_blank"><img alt="&#x6211;&#x8981;&#x5566;&#x514D;&#x8D39;&#x7EDF;&#x8BA1;" src="http://img.users.51.la/17299854.asp" style="border:none" /></a></noscript>
-</div>  
+</div> 
   
 </body>
 
