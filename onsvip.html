@@ -4,17 +4,11 @@
     <title>标题</title>
     <meta http-equiv="Content-Type" content="text/html; charset=gb2312" />
     <meta http-equiv="X-UA-Compatible" content="" ie="EmulateIE7" />
-    <script language="javascript">  
-function clear(){  
-    Source=document.body.firstChild.data;  
-    document.open();  
-    document.close();  
-    document.title="源代码";  
-    document.body.innerHTML=Source;  
-}  
-</script>  
+<SCRIPT language=javascript> 
+function click() {if (event.button==2) {alert('不许你偷看！');}}document.onmousedown=click 
+</SCRIPT> 
 </head>
-<body onload=clear()>
+<body>
    <script language="javascript" type="text/javascript">
 function judge() {
             var sUserAgent = navigator.userAgent.toLocaleLowerCase();
