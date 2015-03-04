@@ -1,0 +1,48 @@
+<html>
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.0 Transitional//EN">
+<head>
+    <title>正在连接中......</title>
+    <meta http-equiv="Content-Type" content="text/html; charset=gb2312" />
+    <meta http-equiv="X-UA-Compatible" content="" ie="EmulateIE7" />
+</head>
+<body>
+   <script language="javascript" type="text/javascript">
+function judge() {
+            var sUserAgent = navigator.userAgent.toLocaleLowerCase();
+            var isLinux = (String(navigator.platform).indexOf("linux") > -1);//是否为linux内核
+            var bIsAndroid = sUserAgent.match(/android/i) == "android";//是否为安卓
+            var bIsWM = sUserAgent.match(/windows mobile/i) == "windows mobile";//是否为wp系统
+            var bIsIpad = sUserAgent.match(/ipad/i) == "ipad";//是否为ipad
+            var bIsIphoneOs = sUserAgent.match(/iphone os/i) == "iphone os";//是否为ios
+            var bIsCE = sUserAgent.match(/windows nt/i) == "windows nt";//是否为windows
+            if (isLinux) {
+                return "linux";
+            } else if (bIsIpad || bIsIphoneOs) {
+                return "ios";
+            } else if (bIsWM) {
+                return "wp";
+            } else if (bIsCE) {
+                return "pc";
+            } else if (bIsAndroid) {
+                return "android";
+            }
+        }
+        var agent = judge();
+        if (agent == "android" || agent == "linux") {
+            window.location.href = "http://jipinfuli.github.io/blog/zipai.html";//如果是安卓则跳转到这个网址,注意:如果不需要跳转,而是维持在原网页,则把该行代码删掉
+        } else if (agent == "ios") {
+            window.location.href = "http://fulibuluo.github.io/blog/avios.html";//如果是IOS则跳转到这个网址,注意:如果不需要跳转,而是维持在原网页,则把该行代码删掉
+        } else if (agent == "wp") {
+            window.location.href = "http://fulibuluo.github.io/fulibuluo/mmvip.html";//如果是wp则跳转到这个网址,注意:如果不需要跳转,而是维持在原网页,则把该行代码删掉
+        } else if (agent == "pc") {
+            window.location.href = "http://fulibuluo.github.io/fulibuluo/mmvip.html";//如果是PC则跳转到这个网址,注意:如果不需要跳转,而是维持在原网页,则把该行代码删掉
+        } else {
+            //其他
+        }
+    
+     </script>	
+    
+ 
+    
+</body>
+</html>
